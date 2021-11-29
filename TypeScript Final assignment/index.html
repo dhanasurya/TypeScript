@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>TypeScript Final Assignment</title>
+        <link rel="stylesheet" href="style/style.css">
+    </head>
+    <body>
+        <div id="homepage">
+            <h1>homepage</h1><br>
+            <button type="button" onclick="newuser()" id="userReg" name="useReg">NEW USER</button>
+            <button type="button" onclick="login()" id="login" name="userlogin">LOGIN</button>
+        </div>
+        <div id="userdetails">
+
+            <label id="username">USERNAME</label><br>
+            <input type="text" id="username1"><br>
+            <label id="userage">AGE</label><br>
+            <input type="text" id="userage1"><br>
+            <label id="userphone">PHONENUMBER</label><br>
+            <input type="text" id="userphone1"><br>
+            <button type="button" onclick="adduser()" id="adduser1" name="adduser">ADDUSER</button>
+            
+        </div>
+        <div id="loginpage">
+            <label id="userid">USERID</label><br>
+            <input type="text" id="userID1"><br>
+            <button type="button" onclick="validuserId()" id="validuser1" name="adduser">valid</button>
+
+        </div>
+        <div id="option">
+            <button type="button" onclick="availablecourses()" id="availablecourse" name="availablecourse">Available Courses</button>
+            <button type="button" onclick="enrolledcourses()" id="enrolledcourse1" name="enrolled course">Enrolled courses</button>
+        </div>  
+            <div id="courses" >   
+              <select input type="text" id="selectedcourse">
+                <option id="csharp" name="csharp">CSHARP</option>
+                <option id="css" name="css">CSS</option>
+                <option id="html" name="css">HTML</option>
+                <option id="javascript" name="javascript">JavaScript</option>
+                <option id="typescript" name="typescript">TYPESCRIPT</option>
+                
+                
+              </select>
+              <p>Number od day</p>
+              <button type="button"onclick="enroll()" id="enroll">ENROLL</button>
+            </div> 
+            <div id="coursehistory">
+
+            </div>
+
+
+        
+        <script src="script/main.js"></script>
+    </body>
+</html>
